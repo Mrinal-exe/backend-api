@@ -1,4 +1,4 @@
-#**Backend API**
+#Backend API
 
 **Overview:**
 This documentation covers the [Project Name] project, a Node.js application using Express, MongoDB with Mongoose, and bcrypt for password hashing. It facilitates user signup, login, and user data retrieval.
