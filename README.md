@@ -16,7 +16,7 @@ This documentation covers the [Project Name] project, a Node.js application usin
 
 **Installation:**
 1. **Clone Repository:**
-``bash
+```
 git clone github.com/Mrinal-exe/backend-api
 
-``
+```
