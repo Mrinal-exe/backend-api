@@ -54,7 +54,7 @@ npm start
 - Set the MongoDB connection URL and Post.
 
 **Routes:**
-1. **GET `/`**
+1. **GET `/getall`**
 - Fetches all users from the database.
 
 2. **POST `/signup`**
