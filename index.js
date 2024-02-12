@@ -1,15 +1,21 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const user = require('./model/user_model');
+const getAll = require('./routes/getAll');
+const signup = require('./routes/signup');
+const login = require('./routes/login');
 require('./config/mongo');
 
 const PORT = process.env.PORT;
-const userRouter = require('./routes/routes')
+
 
 const app = express();
 app.use(express.json());
-app.use(userRouter)
 
+//Routes 
+app.get('/getall', getAll);
+app.post('/signup', signup);
+app.post('/login',login)
 
 
 app.listen(PORT || 8000, () =>{
