@@ -14,7 +14,8 @@ async function signup(req, res) {
         return res.status(200).json(data);
 
     } catch (err) {
-        res.status(400).json({ error: `${err}` });
+        console.error('Error during login:', err);
+        return res.status(500).json({ error: 'Error while sigining up' });
     }
 };
 

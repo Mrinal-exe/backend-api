@@ -25,7 +25,7 @@ async function login (req, res){
 
         } catch (err) {
             console.error('Error during login:', err);
-            return res.status(500).json({ error: 'Internal Server Error' });
+            return res.status(500).json({ error: 'Error  while logging in' });
 
         }
 

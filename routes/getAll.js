@@ -12,7 +12,8 @@ async function getAll(req, res){
         }
         
     } catch (err) {
-        return res.status(400).json({error : `${err}`})
+        console.error('Error during login:', err);
+        return res.status(500).json({ error: 'Error while getting data' });
     }
 };
 
