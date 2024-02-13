@@ -4,7 +4,7 @@
   "description": "Express practice ",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon run app.js"
+    "start": "nodemon run index.js"
   },
   "author": "Mrinal.exe",
   "license": "ISC",
